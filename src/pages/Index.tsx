@@ -87,10 +87,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-accent rounded flex items-center justify-center text-accent-foreground font-bold">
-              中
-            </div>
-            <span className="text-xl font-bold text-foreground">ChinaBuyer</span>
+            <span className="text-xl font-bold text-foreground">NEWBE</span>
           </div>
           <div className="hidden md:flex gap-6">
             <a href="#services" className="text-muted-foreground hover:text-accent transition-colors">Услуги</a>
@@ -110,7 +107,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center animate-fade-in">
             <div className="inline-block mb-6 px-4 py-2 bg-accent/10 rounded-full border border-accent/20">
-              <span className="text-accent font-medium">🇨🇳 Прямые поставки из Китая</span>
+              <span className="text-accent font-medium">Прямые поставки из Китая</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
               Закупка товаров<br />
@@ -277,11 +274,8 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-accent rounded flex items-center justify-center text-white font-bold">
-                  中
-                </div>
-                <span className="text-xl font-bold text-foreground">ChinaBuyer</span>
+              <div className="mb-4">
+                <span className="text-xl font-bold text-foreground">NEWBE</span>
               </div>
               <p className="text-muted-foreground">Надежный партнер для закупок из Китая</p>
             </div>
@@ -316,7 +310,7 @@ const Index = () => {
             </div>
           </div>
           <div className="pt-8 border-t border-border text-center text-muted-foreground">
-            <p>© 2024 ChinaBuyer. Все права защищены.</p>
+            <p>© 2024 NEWBE. Все права защищены.</p>
           </div>
         </div>
       </footer>
